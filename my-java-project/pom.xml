@@ -13,4 +13,11 @@
         <maven.compiler.target>11</maven.compiler.target>
     </properties>
 </project>
+<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0fckfiphtsxr-artifactory-primary-0-snapshots</name>
+        <url>https://myartifactoryswaroopa.jfrog.io/artifactory/example-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
